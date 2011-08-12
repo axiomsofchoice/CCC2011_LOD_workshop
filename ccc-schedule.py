@@ -19,7 +19,15 @@ def read_xml():
 
 rn = read_xml()
 
-print rn
+# Get overall conference metadata
+myXapth = etree.ETXPath("/schedule/conference/title")
+print myXpath(rn)
+
+# Iterate over the days of the conference
+
+#    # Iterate over rooms for that day
+#        
+#        # Iterate over events for this room on this day
 
 exit(0)
 
