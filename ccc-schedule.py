@@ -4,6 +4,8 @@
 import urllib2
 from lxml import etree
 from StringIO import StringIO
+from rdflib import Graph
+from rdflib import Namespace
 
 def read_xml():
     source_schedule = 'http://events.ccc.de/camp/2011/Fahrplan/schedule.en.xml'
@@ -17,7 +19,15 @@ def read_xml():
     
     return tree
 
+# Read in source XML data
 rn = read_xml()
+
+# Create the graph for output RDF/XML data
+g = Graph()
+
+# Declare some useful namespaces
+ccc_onto = Namespace('http://events.ccc.de/schedule.owl#')
+ccc = Namespace('http://fahrplan.u0d.de/')
 
 # Get overall conference metadata
 myXpath = etree.ETXPath("/schedule/conference/title")
@@ -55,11 +65,7 @@ for day in days:
 
 exit(0)
 
-from rdflib import Graph
-from rdflib import Namespace
-import StringIO
 
-g = Graph()
 g.parse(StringIO.StringIO(s), format="xml")
 
 for s, p, o in g:
