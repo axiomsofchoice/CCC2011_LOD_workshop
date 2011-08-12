@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
+   xmlns:ns2="http://fahrplan.u0d.de/schedule.owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/financing_the_revolution">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Financing The Revolution</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/ich_und_23">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Ich und 23</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/the_joy_of_intellectual_vampirism">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>The Joy of Intellectual Vampirism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/inertial_navigation">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Inertial navigation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/ios_application_security">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>iOS application security</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/camp2011">
+    <ns1:label>Chaos Communication Camp 2011</ns1:label>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/financing_the_revolution"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/ich_und_23"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/the_joy_of_intellectual_vampirism"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/inertial_navigation"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/ios_application_security"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/post_hacker_ethics_cyberwar"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/openleaks"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/gprs_intercept"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/decentralized_clustering"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/dudle"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/accessblocking"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/wie_finanziere_ich_eine_mondmission"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/rethinking_online_news"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/closing_event"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/hacker_jeopardy"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/data_mining_your_city"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/mursat"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/stuff_you_dont_see_every_day"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/imagine_the_future_of_money"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/arguna"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/she_hackers"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/theres_gold_in_them_circuit_boards"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/tempo_phythm_echo"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/strahlung_im_weltall"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/maching_to_machine_security"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/a_short_history_of_ipv4"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/laptop_and_electronics_searches_at_the_us_border"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/hacking_dna"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/rocket_propulsion"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/learning_secrets_by_watching_people"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/solid_rocket_engines"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/a_modern_manifest_of_cyberspace"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/rocket_telemetry"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/latest_developments_around_the_milkymist_system_on_chip"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/giving_great_workshops"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/ihr_kotzt_mich_alle_an"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/what_is_brewing_in_brussels"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/stalker"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/reviving_smart_card_analysis"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/poker_bots"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/counselling_mischief_as_thought_crime"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/moonbounce_radio_communication"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/space_debris"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/avionics"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/transition_telecom"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/life_foods"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/sport_fuer_nerds"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/who_is_snitching_my_milk"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/die_psychologischen_grundlagen_des_social_engineerings"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/open_source_4g_radio"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/certified_programming_with_dependent_types"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/post_privacy_und_darueber_hinaus"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/the_blackbox_in_your_phone"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/opening"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/windkraftanlagen"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/black_ops_of_tcpip_2011"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/satellite_communications"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/space_federation"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/digitale_gesellschaft_ev"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/applied_research_on_security_of_tetra_radio"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/hackers_in_space"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/strong_encryption_of_credit_card_information"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/from_oscar_1_to_mars_and_beyond"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/runtine_reconfigurable_processors"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/steal_everything_kill_everyone_cause_financial_ruin"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/r0ket"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/introduction_to_multicast_security"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/photovoltaics"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/is_this_the_mobile_gadget_world_we_created"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/cyberpeace_and_datalove"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/building_and_giving_away"/>
+    <ns2:hasEvent rdf:resource="http://fahrplan.u0d.de/hybrid_rocket_engines"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/post_hacker_ethics_cyberwar">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Legal, illegal, decentral: Post-hacker-ethics cyberwar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/openleaks">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>OpenLeaks</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/gprs_intercept">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>GPRS Intercept</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/decentralized_clustering">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Decentralized clustering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/dudle">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Dudle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/accessblocking">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Counter-lobbying in the EU Parliament</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/wie_finanziere_ich_eine_mondmission">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Wie finanziere ich eine Mondmission?</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/rethinking_online_news">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Rethinking online news</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/closing_event">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Closing Event</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/hacker_jeopardy">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Hacker Jeopardy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/data_mining_your_city">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Data Mining Your City</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/mursat">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>mur.sat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/stuff_you_dont_see_every_day">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Stuff you don't see - every day</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/imagine_the_future_of_money">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Imagine the Future of Money</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/arguna">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>The "Arguna" rocket family</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/she_hackers">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>She-Hackers: Millennials and Gender in European F/LOSS Subcultures</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/theres_gold_in_them_circuit_boards">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>There's Gold in Them Circuit Boards</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/tempo_phythm_echo">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Tempo/Rhythm/Echo extraction from Music</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/strahlung_im_weltall">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Strahlung im Weltall</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/maching_to_machine_security">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Machine-to-machine (M2M) security</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/a_short_history_of_ipv4">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>A short history of IPv4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/laptop_and_electronics_searches_at_the_us_border">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Laptop and Electronics Searches at the U.S. Border</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/hacking_dna">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Hacking DNA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/rocket_propulsion">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Rocket propulsion basics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/learning_secrets_by_watching_people">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Learning Secrets by Watching People</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/solid_rocket_engines">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Solid rocket engines</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/a_modern_manifest_of_cyberspace">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>A modern manifest of cyberspace</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/rocket_telemetry">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Telemetry </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/latest_developments_around_the_milkymist_system_on_chip">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Latest developments around the Milkymist System-on-Chip</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/giving_great_workshops">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Giving Great Workshops</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/ihr_kotzt_mich_alle_an">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>We suck.</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/what_is_brewing_in_brussels">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>What is brewing in Brussels? </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/stalker">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Die Strugazki-Brüder oder das homöostatische Weltbild</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/reviving_smart_card_analysis">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Reviving smart card analysis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/poker_bots">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Poker bots</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/counselling_mischief_as_thought_crime">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Counselling Mischief as Thought Crime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/moonbounce_radio_communication">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Moonbounce Radio Communication</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/space_debris">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Space Debris</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/avionics">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Avionics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/transition_telecom">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Transition Telecom</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/life_foods">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Life foods</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/sport_fuer_nerds">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Sport für Nerds</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/who_is_snitching_my_milk">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Who's snitching my milk?</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/die_psychologischen_grundlagen_des_social_engineerings">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Die psychologischen Grundlagen des Social Engineerings</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/open_source_4g_radio">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Open-source 4G radio</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/certified_programming_with_dependent_types">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Certified programming with dependent types</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/post_privacy_und_darueber_hinaus">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Post-Privacy und darüber hinaus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/the_blackbox_in_your_phone">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>The blackbox in your phone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/opening">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Opening Event</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/windkraftanlagen">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Windkraftanlagen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/black_ops_of_tcpip_2011">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Black Ops of TCP/IP 2011</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/satellite_communications">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Introduction to Satellite Communications</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/space_federation">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Space Federation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/digitale_gesellschaft_ev">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>"Digitale Gesellschaft e.V." </rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/applied_research_on_security_of_tetra_radio">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Applied Research on security of TETRA radio</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/hackers_in_space">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Hackers in Space</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/strong_encryption_of_credit_card_information">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Strong encryption of credit card information</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/from_oscar_1_to_mars_and_beyond">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>From OSCAR 1 to Mars and beyond</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/runtine_reconfigurable_processors">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Runtime Reconfigurable Processors</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/steal_everything_kill_everyone_cause_financial_ruin">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Steal Everything, Kill Everyone, Cause Total Financial Ruin!</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/r0ket">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>r0ket</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/introduction_to_multicast_security">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Introduction to Multicast Security</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/photovoltaics">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Open source photovoltaics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/is_this_the_mobile_gadget_world_we_created">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Is this the Mobile Gadget World We Created?</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/cyberpeace_and_datalove">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Cyberpeace and Datalove</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/building_and_giving_away">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Building and Giving Away: Motivations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fahrplan.u0d.de/hybrid_rocket_engines">
+    <rdf:type rdf:resource="http://fahrplan.u0d.de/schedule.owl#Event"/>
+    <rdfs:label>Hybrid rocket engines</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
