@@ -1,0 +1,299 @@
+<http://fahrplan.u0d.de/financing_the_revolution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/financing_the_revolution> <http://www.w3.org/2000/01/rdf-schema#label> "Financing The Revolution" .
+<http://fahrplan.u0d.de/financing_the_revolution> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Finance> .
+<http://fahrplan.u0d.de/ich_und_23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/ich_und_23> <http://www.w3.org/2000/01/rdf-schema#label> "Ich und 23" .
+<http://fahrplan.u0d.de/the_joy_of_intellectual_vampirism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/the_joy_of_intellectual_vampirism> <http://www.w3.org/2000/01/rdf-schema#label> "The Joy of Intellectual Vampirism" .
+<http://fahrplan.u0d.de/the_joy_of_intellectual_vampirism> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Intellectual> .
+<http://fahrplan.u0d.de/inertial_navigation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/inertial_navigation> <http://www.w3.org/2000/01/rdf-schema#label> "Inertial navigation" .
+<http://fahrplan.u0d.de/inertial_navigation> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Inertial_navigation_system> .
+<http://fahrplan.u0d.de/ios_application_security> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/ios_application_security> <http://www.w3.org/2000/01/rdf-schema#label> "iOS application security" .
+<http://fahrplan.u0d.de/ios_application_security> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Cisco_IOS> .
+<http://fahrplan.u0d.de/ios_application_security> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Application_security> .
+<http://fahrplan.u0d.de/camp2011> <http://www.w3.org/2004/02/skos/core#label> "Chaos Communication Camp 2011" .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/financing_the_revolution> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/ich_und_23> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/the_joy_of_intellectual_vampirism> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/inertial_navigation> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/ios_application_security> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/post_hacker_ethics_cyberwar> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/openleaks> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/gprs_intercept> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/decentralized_clustering> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/dudle> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/accessblocking> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/wie_finanziere_ich_eine_mondmission> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/rethinking_online_news> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/closing_event> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/hacker_jeopardy> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/data_mining_your_city> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/mursat> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/stuff_you_dont_see_every_day> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/imagine_the_future_of_money> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/arguna> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/she_hackers> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/theres_gold_in_them_circuit_boards> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/tempo_phythm_echo> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/strahlung_im_weltall> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/maching_to_machine_security> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/a_short_history_of_ipv4> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/laptop_and_electronics_searches_at_the_us_border> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/hacking_dna> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/rocket_propulsion> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/learning_secrets_by_watching_people> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/solid_rocket_engines> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/a_modern_manifest_of_cyberspace> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/rocket_telemetry> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/latest_developments_around_the_milkymist_system_on_chip> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/giving_great_workshops> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/ihr_kotzt_mich_alle_an> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/what_is_brewing_in_brussels> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/stalker> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/reviving_smart_card_analysis> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/poker_bots> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/counselling_mischief_as_thought_crime> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/moonbounce_radio_communication> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/space_debris> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/avionics> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/transition_telecom> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/life_foods> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/sport_fuer_nerds> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/who_is_snitching_my_milk> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/die_psychologischen_grundlagen_des_social_engineerings> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/open_source_4g_radio> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/certified_programming_with_dependent_types> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/post_privacy_und_darueber_hinaus> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/the_blackbox_in_your_phone> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/opening> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/windkraftanlagen> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/black_ops_of_tcpip_2011> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/satellite_communications> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/space_federation> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/digitale_gesellschaft_ev> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/applied_research_on_security_of_tetra_radio> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/hackers_in_space> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/strong_encryption_of_credit_card_information> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/from_oscar_1_to_mars_and_beyond> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/runtine_reconfigurable_processors> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/steal_everything_kill_everyone_cause_financial_ruin> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/r0ket> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/introduction_to_multicast_security> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/photovoltaics> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/is_this_the_mobile_gadget_world_we_created> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/cyberpeace_and_datalove> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/building_and_giving_away> .
+<http://fahrplan.u0d.de/camp2011> <http://fahrplan.u0d.de/schedule.owl#hasEvent> <http://fahrplan.u0d.de/hybrid_rocket_engines> .
+<http://fahrplan.u0d.de/post_hacker_ethics_cyberwar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/post_hacker_ethics_cyberwar> <http://www.w3.org/2000/01/rdf-schema#label> "Legal, illegal, decentral: Post-hacker-ethics cyberwar" .
+<http://fahrplan.u0d.de/post_hacker_ethics_cyberwar> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Ethics_%28journal%29> .
+<http://fahrplan.u0d.de/post_hacker_ethics_cyberwar> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Cyberwarfare> .
+<http://fahrplan.u0d.de/openleaks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/openleaks> <http://www.w3.org/2000/01/rdf-schema#label> "OpenLeaks" .
+<http://fahrplan.u0d.de/gprs_intercept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/gprs_intercept> <http://www.w3.org/2000/01/rdf-schema#label> "GPRS Intercept" .
+<http://fahrplan.u0d.de/gprs_intercept> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/General_Packet_Radio_Service> .
+<http://fahrplan.u0d.de/decentralized_clustering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/decentralized_clustering> <http://www.w3.org/2000/01/rdf-schema#label> "Decentralized clustering" .
+<http://fahrplan.u0d.de/decentralized_clustering> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Decentralization> .
+<http://fahrplan.u0d.de/dudle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/dudle> <http://www.w3.org/2000/01/rdf-schema#label> "Dudle" .
+<http://fahrplan.u0d.de/accessblocking> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/accessblocking> <http://www.w3.org/2000/01/rdf-schema#label> "Counter-lobbying in the EU Parliament" .
+<http://fahrplan.u0d.de/accessblocking> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Lobbying> .
+<http://fahrplan.u0d.de/accessblocking> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/European_Parliament> .
+<http://fahrplan.u0d.de/wie_finanziere_ich_eine_mondmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/wie_finanziere_ich_eine_mondmission> <http://www.w3.org/2000/01/rdf-schema#label> "Wie finanziere ich eine Mondmission?" .
+<http://fahrplan.u0d.de/wie_finanziere_ich_eine_mondmission> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Michelle_Wie> .
+<http://fahrplan.u0d.de/rethinking_online_news> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/rethinking_online_news> <http://www.w3.org/2000/01/rdf-schema#label> "Rethinking online news" .
+<http://fahrplan.u0d.de/rethinking_online_news> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Online_newspaper> .
+<http://fahrplan.u0d.de/closing_event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/closing_event> <http://www.w3.org/2000/01/rdf-schema#label> "Closing Event" .
+<http://fahrplan.u0d.de/hacker_jeopardy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/hacker_jeopardy> <http://www.w3.org/2000/01/rdf-schema#label> "Hacker Jeopardy" .
+<http://fahrplan.u0d.de/data_mining_your_city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/data_mining_your_city> <http://www.w3.org/2000/01/rdf-schema#label> "Data Mining Your City" .
+<http://fahrplan.u0d.de/data_mining_your_city> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Data_mining> .
+<http://fahrplan.u0d.de/mursat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/mursat> <http://www.w3.org/2000/01/rdf-schema#label> "mur.sat" .
+<http://fahrplan.u0d.de/stuff_you_dont_see_every_day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/stuff_you_dont_see_every_day> <http://www.w3.org/2000/01/rdf-schema#label> "Stuff you don't see - every day" .
+<http://fahrplan.u0d.de/stuff_you_dont_see_every_day> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/The_Stuff> .
+<http://fahrplan.u0d.de/stuff_you_dont_see_every_day> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Don_%281978_film%29> .
+<http://fahrplan.u0d.de/imagine_the_future_of_money> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/imagine_the_future_of_money> <http://www.w3.org/2000/01/rdf-schema#label> "Imagine the Future of Money" .
+<http://fahrplan.u0d.de/imagine_the_future_of_money> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Imagine_%28AD&D_magazine%29> .
+<http://fahrplan.u0d.de/imagine_the_future_of_money> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/The_Future_%28song%29> .
+<http://fahrplan.u0d.de/arguna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/arguna> <http://www.w3.org/2000/01/rdf-schema#label> "The \"Arguna\" rocket family" .
+<http://fahrplan.u0d.de/she_hackers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/she_hackers> <http://www.w3.org/2000/01/rdf-schema#label> "She-Hackers: Millennials and Gender in European F/LOSS Subcultures" .
+<http://fahrplan.u0d.de/she_hackers> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Subculture> .
+<http://fahrplan.u0d.de/theres_gold_in_them_circuit_boards> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/theres_gold_in_them_circuit_boards> <http://www.w3.org/2000/01/rdf-schema#label> "There's Gold in Them Circuit Boards" .
+<http://fahrplan.u0d.de/theres_gold_in_them_circuit_boards> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Printed_circuit_board> .
+<http://fahrplan.u0d.de/tempo_phythm_echo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/tempo_phythm_echo> <http://www.w3.org/2000/01/rdf-schema#label> "Tempo/Rhythm/Echo extraction from Music" .
+<http://fahrplan.u0d.de/tempo_phythm_echo> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Echo_%28phenomenon%29> .
+<http://fahrplan.u0d.de/tempo_phythm_echo> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Music_%28Madonna_song%29> .
+<http://fahrplan.u0d.de/strahlung_im_weltall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/strahlung_im_weltall> <http://www.w3.org/2000/01/rdf-schema#label> "Strahlung im Weltall" .
+<http://fahrplan.u0d.de/strahlung_im_weltall> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Radiation> .
+<http://fahrplan.u0d.de/maching_to_machine_security> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/maching_to_machine_security> <http://www.w3.org/2000/01/rdf-schema#label> "Machine-to-machine (M2M) security" .
+<http://fahrplan.u0d.de/maching_to_machine_security> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Machine-to-Machine> .
+<http://fahrplan.u0d.de/maching_to_machine_security> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/M2M_%28band%29> .
+<http://fahrplan.u0d.de/a_short_history_of_ipv4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/a_short_history_of_ipv4> <http://www.w3.org/2000/01/rdf-schema#label> "A short history of IPv4" .
+<http://fahrplan.u0d.de/a_short_history_of_ipv4> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/IPv4> .
+<http://fahrplan.u0d.de/laptop_and_electronics_searches_at_the_us_border> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/laptop_and_electronics_searches_at_the_us_border> <http://www.w3.org/2000/01/rdf-schema#label> "Laptop and Electronics Searches at the U.S. Border" .
+<http://fahrplan.u0d.de/laptop_and_electronics_searches_at_the_us_border> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Laptop> .
+<http://fahrplan.u0d.de/laptop_and_electronics_searches_at_the_us_border> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Electronic_musical_instrument> .
+<http://fahrplan.u0d.de/laptop_and_electronics_searches_at_the_us_border> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Canada_%E2%80%93_United_States_border> .
+<http://fahrplan.u0d.de/hacking_dna> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/hacking_dna> <http://www.w3.org/2000/01/rdf-schema#label> "Hacking DNA" .
+<http://fahrplan.u0d.de/hacking_dna> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Ian_Hacking> .
+<http://fahrplan.u0d.de/hacking_dna> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/DNA_Lounge> .
+<http://fahrplan.u0d.de/rocket_propulsion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/rocket_propulsion> <http://www.w3.org/2000/01/rdf-schema#label> "Rocket propulsion basics" .
+<http://fahrplan.u0d.de/rocket_propulsion> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Spacecraft_propulsion> .
+<http://fahrplan.u0d.de/learning_secrets_by_watching_people> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/learning_secrets_by_watching_people> <http://www.w3.org/2000/01/rdf-schema#label> "Learning Secrets by Watching People" .
+<http://fahrplan.u0d.de/learning_secrets_by_watching_people> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Learning> .
+<http://fahrplan.u0d.de/learning_secrets_by_watching_people> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Watching> .
+<http://fahrplan.u0d.de/learning_secrets_by_watching_people> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/The_People> .
+<http://fahrplan.u0d.de/solid_rocket_engines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/solid_rocket_engines> <http://www.w3.org/2000/01/rdf-schema#label> "Solid rocket engines" .
+<http://fahrplan.u0d.de/solid_rocket_engines> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Solid-fuel_rocket> .
+<http://fahrplan.u0d.de/a_modern_manifest_of_cyberspace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/a_modern_manifest_of_cyberspace> <http://www.w3.org/2000/01/rdf-schema#label> "A modern manifest of cyberspace" .
+<http://fahrplan.u0d.de/a_modern_manifest_of_cyberspace> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Cyberspace> .
+<http://fahrplan.u0d.de/rocket_telemetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/rocket_telemetry> <http://www.w3.org/2000/01/rdf-schema#label> "Telemetry " .
+<http://fahrplan.u0d.de/rocket_telemetry> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Telemetry> .
+<http://fahrplan.u0d.de/latest_developments_around_the_milkymist_system_on_chip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/latest_developments_around_the_milkymist_system_on_chip> <http://www.w3.org/2000/01/rdf-schema#label> "Latest developments around the Milkymist System-on-Chip" .
+<http://fahrplan.u0d.de/latest_developments_around_the_milkymist_system_on_chip> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/System-on-a-chip> .
+<http://fahrplan.u0d.de/giving_great_workshops> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/giving_great_workshops> <http://www.w3.org/2000/01/rdf-schema#label> "Giving Great Workshops" .
+<http://fahrplan.u0d.de/giving_great_workshops> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Workshop> .
+<http://fahrplan.u0d.de/ihr_kotzt_mich_alle_an> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/ihr_kotzt_mich_alle_an> <http://www.w3.org/2000/01/rdf-schema#label> "We suck." .
+<http://fahrplan.u0d.de/what_is_brewing_in_brussels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/what_is_brewing_in_brussels> <http://www.w3.org/2000/01/rdf-schema#label> "What is brewing in Brussels? " .
+<http://fahrplan.u0d.de/what_is_brewing_in_brussels> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Brewing_%28cooking%29> .
+<http://fahrplan.u0d.de/stalker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/stalker> <http://www.w3.org/2000/01/rdf-schema#label> "Die Strugazki-Br\u00FCder oder das hom\u00F6ostatische Weltbild" .
+<http://fahrplan.u0d.de/reviving_smart_card_analysis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/reviving_smart_card_analysis> <http://www.w3.org/2000/01/rdf-schema#label> "Reviving smart card analysis" .
+<http://fahrplan.u0d.de/reviving_smart_card_analysis> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Smart_card> .
+<http://fahrplan.u0d.de/reviving_smart_card_analysis> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Analysis_%28journal%29> .
+<http://fahrplan.u0d.de/poker_bots> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/poker_bots> <http://www.w3.org/2000/01/rdf-schema#label> "Poker bots" .
+<http://fahrplan.u0d.de/counselling_mischief_as_thought_crime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/counselling_mischief_as_thought_crime> <http://www.w3.org/2000/01/rdf-schema#label> "Counselling Mischief as Thought Crime" .
+<http://fahrplan.u0d.de/counselling_mischief_as_thought_crime> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Thoughtcrime> .
+<http://fahrplan.u0d.de/moonbounce_radio_communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/moonbounce_radio_communication> <http://www.w3.org/2000/01/rdf-schema#label> "Moonbounce Radio Communication" .
+<http://fahrplan.u0d.de/moonbounce_radio_communication> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Radio> .
+<http://fahrplan.u0d.de/space_debris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/space_debris> <http://www.w3.org/2000/01/rdf-schema#label> "Space Debris" .
+<http://fahrplan.u0d.de/space_debris> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Space_debris> .
+<http://fahrplan.u0d.de/avionics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/avionics> <http://www.w3.org/2000/01/rdf-schema#label> "Avionics" .
+<http://fahrplan.u0d.de/avionics> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Avionics> .
+<http://fahrplan.u0d.de/transition_telecom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/transition_telecom> <http://www.w3.org/2000/01/rdf-schema#label> "Transition Telecom" .
+<http://fahrplan.u0d.de/life_foods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/life_foods> <http://www.w3.org/2000/01/rdf-schema#label> "Life foods" .
+<http://fahrplan.u0d.de/life_foods> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Life_%28cereal%29> .
+<http://fahrplan.u0d.de/life_foods> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Food> .
+<http://fahrplan.u0d.de/sport_fuer_nerds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/sport_fuer_nerds> <http://www.w3.org/2000/01/rdf-schema#label> "Sport f\u00FCr Nerds" .
+<http://fahrplan.u0d.de/sport_fuer_nerds> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Nerds_%28candy%29> .
+<http://fahrplan.u0d.de/who_is_snitching_my_milk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/who_is_snitching_my_milk> <http://www.w3.org/2000/01/rdf-schema#label> "Who's snitching my milk?" .
+<http://fahrplan.u0d.de/die_psychologischen_grundlagen_des_social_engineerings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/die_psychologischen_grundlagen_des_social_engineerings> <http://www.w3.org/2000/01/rdf-schema#label> "Die psychologischen Grundlagen des Social Engineerings" .
+<http://fahrplan.u0d.de/die_psychologischen_grundlagen_des_social_engineerings> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Die,_Dr%C3%B4me> .
+<http://fahrplan.u0d.de/die_psychologischen_grundlagen_des_social_engineerings> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Social> .
+<http://fahrplan.u0d.de/open_source_4g_radio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/open_source_4g_radio> <http://www.w3.org/2000/01/rdf-schema#label> "Open-source 4G radio" .
+<http://fahrplan.u0d.de/open_source_4g_radio> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Open_source> .
+<http://fahrplan.u0d.de/certified_programming_with_dependent_types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/certified_programming_with_dependent_types> <http://www.w3.org/2000/01/rdf-schema#label> "Certified programming with dependent types" .
+<http://fahrplan.u0d.de/certified_programming_with_dependent_types> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Certification> .
+<http://fahrplan.u0d.de/certified_programming_with_dependent_types> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Computer_programming> .
+<http://fahrplan.u0d.de/certified_programming_with_dependent_types> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Dependent_type> .
+<http://fahrplan.u0d.de/post_privacy_und_darueber_hinaus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/post_privacy_und_darueber_hinaus> <http://www.w3.org/2000/01/rdf-schema#label> "Post-Privacy und dar\u00FCber hinaus" .
+<http://fahrplan.u0d.de/post_privacy_und_darueber_hinaus> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Financial_privacy> .
+<http://fahrplan.u0d.de/the_blackbox_in_your_phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/the_blackbox_in_your_phone> <http://www.w3.org/2000/01/rdf-schema#label> "The blackbox in your phone" .
+<http://fahrplan.u0d.de/the_blackbox_in_your_phone> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Blackbox> .
+<http://fahrplan.u0d.de/opening> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/opening> <http://www.w3.org/2000/01/rdf-schema#label> "Opening Event" .
+<http://fahrplan.u0d.de/opening> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Opening_credits> .
+<http://fahrplan.u0d.de/opening> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/The_Event_%28film%29> .
+<http://fahrplan.u0d.de/windkraftanlagen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/windkraftanlagen> <http://www.w3.org/2000/01/rdf-schema#label> "Windkraftanlagen" .
+<http://fahrplan.u0d.de/black_ops_of_tcpip_2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/black_ops_of_tcpip_2011> <http://www.w3.org/2000/01/rdf-schema#label> "Black Ops of TCP/IP 2011" .
+<http://fahrplan.u0d.de/black_ops_of_tcpip_2011> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Black_Ops_Entertainment> .
+<http://fahrplan.u0d.de/black_ops_of_tcpip_2011> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Internet_Protocol_Suite> .
+<http://fahrplan.u0d.de/satellite_communications> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/satellite_communications> <http://www.w3.org/2000/01/rdf-schema#label> "Introduction to Satellite Communications" .
+<http://fahrplan.u0d.de/satellite_communications> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Communications_satellite> .
+<http://fahrplan.u0d.de/space_federation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/space_federation> <http://www.w3.org/2000/01/rdf-schema#label> "Space Federation" .
+<http://fahrplan.u0d.de/space_federation> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Space_disco> .
+<http://fahrplan.u0d.de/digitale_gesellschaft_ev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/digitale_gesellschaft_ev> <http://www.w3.org/2000/01/rdf-schema#label> "\"Digitale Gesellschaft e.V.\" " .
+<http://fahrplan.u0d.de/digitale_gesellschaft_ev> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Gemeinschaft_and_Gesellschaft> .
+<http://fahrplan.u0d.de/digitale_gesellschaft_ev> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Eingetragener_Verein> .
+<http://fahrplan.u0d.de/applied_research_on_security_of_tetra_radio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/applied_research_on_security_of_tetra_radio> <http://www.w3.org/2000/01/rdf-schema#label> "Applied Research on security of TETRA radio" .
+<http://fahrplan.u0d.de/applied_research_on_security_of_tetra_radio> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Applied_research> .
+<http://fahrplan.u0d.de/applied_research_on_security_of_tetra_radio> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Terrestrial_Trunked_Radio> .
+<http://fahrplan.u0d.de/applied_research_on_security_of_tetra_radio> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Radio> .
+<http://fahrplan.u0d.de/hackers_in_space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/hackers_in_space> <http://www.w3.org/2000/01/rdf-schema#label> "Hackers in Space" .
+<http://fahrplan.u0d.de/strong_encryption_of_credit_card_information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/strong_encryption_of_credit_card_information> <http://www.w3.org/2000/01/rdf-schema#label> "Strong encryption of credit card information" .
+<http://fahrplan.u0d.de/strong_encryption_of_credit_card_information> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Strong_cryptography> .
+<http://fahrplan.u0d.de/strong_encryption_of_credit_card_information> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Credit_card> .
+<http://fahrplan.u0d.de/from_oscar_1_to_mars_and_beyond> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/from_oscar_1_to_mars_and_beyond> <http://www.w3.org/2000/01/rdf-schema#label> "From OSCAR 1 to Mars and beyond" .
+<http://fahrplan.u0d.de/from_oscar_1_to_mars_and_beyond> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/OSCAR> .
+<http://fahrplan.u0d.de/runtine_reconfigurable_processors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/runtine_reconfigurable_processors> <http://www.w3.org/2000/01/rdf-schema#label> "Runtime Reconfigurable Processors" .
+<http://fahrplan.u0d.de/runtine_reconfigurable_processors> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Central_processing_unit> .
+<http://fahrplan.u0d.de/steal_everything_kill_everyone_cause_financial_ruin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/steal_everything_kill_everyone_cause_financial_ruin> <http://www.w3.org/2000/01/rdf-schema#label> "Steal Everything, Kill Everyone, Cause Total Financial Ruin!" .
+<http://fahrplan.u0d.de/steal_everything_kill_everyone_cause_financial_ruin> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Total_war> .
+<http://fahrplan.u0d.de/r0ket> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/r0ket> <http://www.w3.org/2000/01/rdf-schema#label> "r0ket" .
+<http://fahrplan.u0d.de/introduction_to_multicast_security> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/introduction_to_multicast_security> <http://www.w3.org/2000/01/rdf-schema#label> "Introduction to Multicast Security" .
+<http://fahrplan.u0d.de/introduction_to_multicast_security> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Introduction_%28music%29> .
+<http://fahrplan.u0d.de/introduction_to_multicast_security> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Multicast> .
+<http://fahrplan.u0d.de/photovoltaics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/photovoltaics> <http://www.w3.org/2000/01/rdf-schema#label> "Open source photovoltaics" .
+<http://fahrplan.u0d.de/photovoltaics> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Photovoltaics> .
+<http://fahrplan.u0d.de/is_this_the_mobile_gadget_world_we_created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/is_this_the_mobile_gadget_world_we_created> <http://www.w3.org/2000/01/rdf-schema#label> "Is this the Mobile Gadget World We Created?" .
+<http://fahrplan.u0d.de/is_this_the_mobile_gadget_world_we_created> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Mobile_%28band%29> .
+<http://fahrplan.u0d.de/is_this_the_mobile_gadget_world_we_created> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Gadget> .
+<http://fahrplan.u0d.de/cyberpeace_and_datalove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/cyberpeace_and_datalove> <http://www.w3.org/2000/01/rdf-schema#label> "Cyberpeace and Datalove" .
+<http://fahrplan.u0d.de/building_and_giving_away> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/building_and_giving_away> <http://www.w3.org/2000/01/rdf-schema#label> "Building and Giving Away: Motivations" .
+<http://fahrplan.u0d.de/building_and_giving_away> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Building> .
+<http://fahrplan.u0d.de/hybrid_rocket_engines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://fahrplan.u0d.de/schedule.owl#Event> .
+<http://fahrplan.u0d.de/hybrid_rocket_engines> <http://www.w3.org/2000/01/rdf-schema#label> "Hybrid rocket engines" .
+<http://fahrplan.u0d.de/hybrid_rocket_engines> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Hybrid_rocket> .
+<http://fahrplan.u0d.de/hybrid_rocket_engines> <http://fahrplan.u0d.de/schedule.owl#hasTopic> <http://dbpedia.org/resource/Engine> .
