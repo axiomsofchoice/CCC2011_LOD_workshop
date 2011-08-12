@@ -38,9 +38,7 @@ conference_title = myXpath(rn)[0].text
 
 conf = URIRef("http://events.ccc.de/camp/2011")
 g.add((conf, SKOS.label, Literal(conference_title)))
-g.serialize("out.rdf")
-#g.serialize()
-exit(0)
+
 # TODO: extract the following metadata
 """
 <title>Chaos Communication Camp 2011</title>
@@ -60,6 +58,7 @@ daysXpath = etree.ETXPath("/schedule/day")
 days = daysXpath(rn)
 for day in days:
     print day
+    
     # Iterate over rooms for that day
     for room in day.iterfind("./room"):
         print room.get("name")
@@ -68,14 +67,11 @@ for day in days:
         for event in room.iterfind("./event"):
             print event.get("id")
             
+            event = URIRef("http://events.ccc.de/camp/2011")
+            g.add((conf, SKOS.label, event))
+            
             # Iterate over persons
             # Iterate over links
 
-exit(0)
+g.serialize("out.rdf")
 
-
-g.parse(StringIO.StringIO(s), format="xml")
-
-for s, p, o in g:
-    if str(s)==exampleDOI and str(p)=="http://purl.org/dc/terms/title":
-        print "%s has title \"%s\"" % (s,o)
