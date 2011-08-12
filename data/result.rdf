@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF[
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY swivt 'http://semantic-mediawiki.org/swivt/1.0#'>
+	<!ENTITY wiki 'http://localhost/ldex'>
+	<!ENTITY property 'http://events.ccc.de/camp/2011/wiki/Special:URIResolver/Property-3A'>
+	<!ENTITY wikiurl 'http://events.ccc.de/camp/2011/wiki/'>
+]>
+
+<rdf:RDF
+	xmlns:rdf="&rdf;"
+	xmlns:rdfs="&rdfs;"
+	xmlns:owl ="&owl;"
+	xmlns:swivt="&swivt;"
+	xmlns:wiki="&wiki;"
+	xmlns:property="&property;">
+
+	<owl:Ontology rdf:about="">
+		<swivt:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T13:21:27+02:00</swivt:creationDate>
+		<owl:imports rdf:resource="http://semantic-mediawiki.org/swivt/1.0"/>
+	</owl:Ontology>
+	<swivt:Subject rdf:about="&wiki;/Hardware_Hacking_Workshops_Day2">
+		<rdfs:label>/Hardware Hacking Workshops Day2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;/Hardware_Hacking_Workshops_Day2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF//Hardware_Hacking_Workshops_Day2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardware Hacking Workshops</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There will be hardware hacking workshops all day and all night every day of Camp at H_x^2.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T00:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;/Hardware_Hacking_Workshops_Day3">
+		<rdfs:label>/Hardware Hacking Workshops Day3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;/Hardware_Hacking_Workshops_Day3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF//Hardware_Hacking_Workshops_Day3"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardware Hacking Workshops</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There will be hardware hacking workshops all day and all night every day of Camp at H_x^2.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T00:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;/Hardware_Hacking_Workshops_Day4">
+		<rdfs:label>/Hardware Hacking Workshops Day4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;/Hardware_Hacking_Workshops_Day4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF//Hardware_Hacking_Workshops_Day4"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardware Hacking Workshops</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There will be hardware hacking workshops all day and all night every day of Camp at H_x^2.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T00:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;/Hardware_Hacking_Workshops_Day5">
+		<rdfs:label>/Hardware Hacking Workshops Day5</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;/Hardware_Hacking_Workshops_Day5"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF//Hardware_Hacking_Workshops_Day5"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardware Hacking Workshops</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There will be hardware hacking workshops all day and all night every day of Camp at H_x^2.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-14T00:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Ableton_Live_Workshop">
+		<rdfs:label>Ableton Live Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Ableton_Live_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Ableton_Live_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ableton Live Workshop</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maya is a certified Ableton Live teacher from Berlin, she will give an overview of the functions of Ableton Live Suite. Claus will also show some applications with Max for Live. We will do jam sessions and also include the workshop themes to produce some nice extraterrestial Camp tracks. If there is interest we will repeat/expand the workshop on Saturday at the same time again.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T19:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Address_the_Certification_Mess">
+		<rdfs:label>Address the Certification Mess</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Address_the_Certification_Mess"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Address_the_Certification_Mess"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Address the Certification Mess</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meet the developers of Certificate Patrol and discuss how to reduce the pains induced by X.509</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-14T13:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ArduinoForTotalNewbies_Day2">
+		<rdfs:label>ArduinoForTotalNewbies Day2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ArduinoForTotalNewbies_Day2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ArduinoForTotalNewbies_Day2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arduino For Total Newbies</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Learn what Arduinos are, and learn how to do cool things with them! (Using TV-B-Gone as an example project.)  ''--  Identical workshops on Day2, Day3, and Day4.''</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ArduinoForTotalNewbies_Day3">
+		<rdfs:label>ArduinoForTotalNewbies Day3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ArduinoForTotalNewbies_Day3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ArduinoForTotalNewbies_Day3"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arduino For Total Newbies</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Learn what Arduinos are, and learn how to do cool things with them! (Using TV-B-Gone as an example project.)  ''--  Identical workshops on Day2, Day3, and Day4.''</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ArduinoForTotalNewbies_Day4">
+		<rdfs:label>ArduinoForTotalNewbies Day4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ArduinoForTotalNewbies_Day4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ArduinoForTotalNewbies_Day4"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arduino For Total Newbies</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Learn what Arduinos are, and learn how to do cool things with them! (Using TV-B-Gone as an example project.)  ''--  Identical workshops on Day2, Day3, and Day4.''</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Beer_Brewing_Workshop">
+		<rdfs:label>Beer Brewing Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Beer_Brewing_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Beer_Brewing_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beer Brewing Workshop</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We will be tasting the homebrew brought. If everything works out, we'll also be brewing right on the camp site.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T18:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">08:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Blackout_Resilient_Technologies">
+		<rdfs:label>Blackout Resilient Technologies</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Blackout_Resilient_Technologies"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Blackout_Resilient_Technologies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blackout Resilient Technologies</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">for Blackout Resilient Technologies such as infrastructure mesh networks for use when the 'normal' networking infrastructure is down or swiched off, such as after natural disasters or when regimes activate a 'kill switch' to shut off the internet or cellular network in an attempt to thwart the mobilization of opponents or activists. Think mesh networks, bridging communications technologies and 'internet in a briefcase' type stuff. The village will also have projects in areas such as censorship circumvention, anonymity, hacktivism, secure communications, network monitoring and early warning systems.
+
+It also features Open Source Solar technology in case somebody or something de-energizes you or you are living in some area without an electricity grid or you want to power something that's too far away from the grid (think wireless router in your tree house).</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T10:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Chaos_macht_Schule">
+		<rdfs:label>Chaos macht Schule</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Chaos_macht_Schule"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Chaos_macht_Schule"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojave Hangar</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meeting of the German "Chaos macht Schule" activists to prepare a focused meeting in October.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ChaosVPN">
+		<rdfs:label>ChaosVPN</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ChaosVPN"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ChaosVPN"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChaosVPN</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If you want to join the ChaosVPN this is the Workshop to be in</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">06:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Crashcourse_Oscilloscope_and_Logic_Analyser">
+		<rdfs:label>Crashcourse Oscilloscope and Logic Analyser</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Crashcourse_Oscilloscope_and_Logic_Analyser"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Crashcourse_Oscilloscope_and_Logic_Analyser"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crashcourse Oscilloscope and Logic Analyser</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In this course I would like to show you how a oszilloscope and a logic analyser is built, how they work and what they're used for.
+
+The Goal is, that you know how to
+* correctly select the type of measurement device 
+* correctly set up your device, that you see what you are interested in
+* interprete the measurement display and know how accurate it is</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T16:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1:30 or as long as needed</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Crowdfunding_Workshop">
+		<rdfs:label>Crowdfunding Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Crowdfunding_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Crowdfunding_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crowdfunding Workshop</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How would you start a campaign to fund your open source application or any other project to a crowdfunding platform
+ 
+Wie wird ein erfolgreiches Projekt für die Finanzierung einer open-source-Anwendung auf einer Crowdfundingplattform erstellt</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T18:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CubeSat_Workshop">
+		<rdfs:label>CubeSat Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CubeSat_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CubeSat_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Building a Cube-Satellite</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pilot workshop for a Gloria CubeSat Project. The goal of Gloria is to assume the role of second Glory stopped. See here for more information http://universeexplorer.cwahi.net/cubesat</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T14:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;CyberpeaceAndDatalove">
+		<rdfs:label>CyberpeaceAndDatalove</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;CyberpeaceAndDatalove"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/CyberpeaceAndDatalove"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">After talk 'Cyberpeace and Datalove', let's prolong conversation</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">After jz's talk, let's prolong the conversation on La Quadrature du Camp, the village of La Quadrature du Net, gathering friends such as from EFF, Open Knowledge Foundation, etc. Let's enjoy beer/mate/etc. and cool music to discuss the future of our freedoms on the Internet, threats to its architecture, and related projects.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T23:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;DIY_nonprofit_ISP">
+		<rdfs:label>DIY nonprofit ISP</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;DIY_nonprofit_ISP"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/DIY_nonprofit_ISP"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIY nonprofit ISP</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How to setup your own not-for-profit ISP</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T18:15:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;EBrainPool">
+		<rdfs:label>EBrainPool</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;EBrainPool"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/EBrainPool"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eBrainPool</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intro &amp; Demo of eBrainPool, Installation &amp; Usage, Discussions for future directions, If your interested in anything related to MESH networking &amp; distributed software usage, come help us make a real MESH of things :)</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">04:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Edit_-26_Mash-2DUp_Workshop">
+		<rdfs:label>Edit &amp; Mash-Up Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Edit_%26_Mash-Up_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Edit_%26_Mash-Up_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edit &amp; Mash-Up Workshop 1/2</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wanna learn to do a disco edit or mash-up of your favorite songs?</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T17:00:00</property:WorkshopDateTime>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Edit_-26_Mash-2DUp_Workshop_2">
+		<rdfs:label>Edit &amp; Mash-Up Workshop 2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Edit_%26_Mash-Up_Workshop_2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Edit_%26_Mash-Up_Workshop_2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Edit &amp; Mash-Up Workshop 2/2</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wanna learn to do a disco edit or mash-up of your favorite songs?</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T13:00:00</property:WorkshopDateTime>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Electronic_Frontier_Foundation_gathering">
+		<rdfs:label>Electronic Frontier Foundation gathering</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Electronic_Frontier_Foundation_gathering"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Electronic_Frontier_Foundation_gathering"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronic Frontier Foundation gathering</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFF International Rights Director Katitza Rodriguez, Senior Staff Technologist Seth Schoen, and  co-founder John Gilmore, will meet folks to talk about what EFF.ORG is doing in Europe and hear what EFF ought to be doing in Europe.  Members, followers, skeptics and fellow-travelers are all welcome.
+It will takes place at 14:30.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T14:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Embedded_OS_principles">
+		<rdfs:label>Embedded OS principles</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Embedded_OS_principles"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Embedded_OS_principles"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mojave Hangar</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Presentation and discussion of simple OS principles, that can be used in embedded control with limited resources. Multitasking, Semaphores, Time services, Interrupts, Watchdog, Reliability</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T15:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Esperanto">
+		<rdfs:label>Esperanto</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Esperanto"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Esperanto"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esperanto für Fortgeschrittene</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wir machen weiter mit Lektion 3 von »Esperanto im Dialog«
+Ni daŭrigos lecionon 3 de “Esperanto en dialogo”</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T18:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;GIMP_Usability">
+		<rdfs:label>GIMP Usability</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;GIMP_Usability"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/GIMP_Usability"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usability for GIMP</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This will be a discussion of Tobias' planned work for GIMP usability, described at http://gui.gimp.org/index.php/Usability
+It is recommended to read this page as a preparation for the discussion.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T16:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Geiger_Counter_Workshop">
+		<rdfs:label>Geiger Counter Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Geiger_Counter_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Geiger_Counter_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Build a Geiger Counter</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scout for radioactive hackers with this open source kit.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T17:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Geiger_Counter_Workshop2">
+		<rdfs:label>Geiger Counter Workshop2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Geiger_Counter_Workshop2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Geiger_Counter_Workshop2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Build a Geiger Counter (2nd Workshop)</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scout for radioactive hackers with this open source kit.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T17:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Getting_started_with_CouchDB_and_Elasticsearch">
+		<rdfs:label>Getting started with CouchDB and Elasticsearch</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Getting_started_with_CouchDB_and_Elasticsearch"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Getting_started_with_CouchDB_and_Elasticsearch"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getting started with CouchDB and Elasticsearch</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction to CouchDB and Elasticsearch and how to use them together.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Grundkurs_Oszilloskop_und_Logik_Analysator">
+		<rdfs:label>Grundkurs Oszilloskop und Logik Analysator</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Grundkurs_Oszilloskop_und_Logik_Analysator"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Grundkurs_Oszilloskop_und_Logik_Analysator"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grundkurs Oszilloskop und Logik Analysator</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ich möchte euch in diesem Kurs den Aufbau, Funktionsweise und die Einsatzgebiete des Oszilloskops und des Logik Analysator zeigen.
+
+Ziel ist es, dass ihr wisst
+* wann ihr welches Messgerät braucht
+* wie ihr das Messgerät so einstellt, das ihr das sehen könnt was euch interessiert
+* wie das angezeigte zu interpretieren ist und wie genau eure Messung ist</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T16:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 hour 30 minutes</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hack_your_beamer/projector_into_3D-21_with_polarizer">
+		<rdfs:label>Hack your beamer/projector into 3D! with polarizer</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hack_your_beamer/projector_into_3D!_with_polarizer"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hack_your_beamer/projector_into_3D!_with_polarizer"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hao Zhang</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You'll learn how to turn 2 normal projectors in to a 3D one, really easy and really fast. Bring some paper to make your own 3D glasses) . This is exactly the same technology that a lot cinema use when playing 3D movies. Come and check it out!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T13:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0:30</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hackers_on_the_Needle">
+		<rdfs:label>Hackers on the Needle</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hackers_on_the_Needle"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hackers_on_the_Needle"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hackers on the Needle</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knitting workshop for nerds. - Appended to "knitting messages" project.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T16:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hacking_all_the_way_to_China-3A_Maker_Carnival_China_2012">
+		<rdfs:label>Hacking all the way to China: Maker Carnival China 2012</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hacking_all_the_way_to_China:_Maker_Carnival_China_2012"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hacking_all_the_way_to_China:_Maker_Carnival_China_2012"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hao Zhang</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"Maker Carnival China 2012" will happen in April, 2012. It's a Maker Faire - like event, and '''we might even fly some hackers to Beijing, if you got great projects to show or great workshops to do.''' Mitch Altman will come to this event, along with several hackers from Noisebridge and other hackerspaces. Are you interested in hacking in China? Please come and checkout.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T13:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0:30</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hardware_Hacking_Workshops">
+		<rdfs:label>Hardware Hacking Workshops</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hardware_Hacking_Workshops"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hardware_Hacking_Workshops"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardware Hacking Workshops</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There will be hardware hacking workshops all day and all night every day of Camp at H_x^2.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T00:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Home_Automation">
+		<rdfs:label>Home Automation</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Home_Automation"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Home_Automation"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home Automation</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This workshop shall be a open discussion of ppl which have done or plane to automate their home, using either commercial or community developed components.
+
+*KNX
+*freebus.org
+*...
+
+more to follow
+
+date as announced
+in case of interested, put your name here</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T16:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 hours</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hosting_your_own_open_social_network">
+		<rdfs:label>Hosting your own open social network</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hosting_your_own_open_social_network"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hosting_your_own_open_social_network"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Host your own open social network</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Host your own open social network in under 60 minutes</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T17:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 hour</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hosting_your_own_open_social_network_3">
+		<rdfs:label>Hosting your own open social network 3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hosting_your_own_open_social_network_3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hosting_your_own_open_social_network_3"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Host your own open scial network</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Host your own open social network in under 60 minutes</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T17:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 hour</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Hosting_your_own_open_social_network_4">
+		<rdfs:label>Hosting your own open social network 4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Hosting_your_own_open_social_network_4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Hosting_your_own_open_social_network_4"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Host your own open scial network</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Host your own open social network in under 60 minutes</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T17:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 hour</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;How_to_bypass_the_new_data_retention_law">
+		<rdfs:label>How to bypass the new data retention law</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;How_to_bypass_the_new_data_retention_law"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/How_to_bypass_the_new_data_retention_law"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How to bypass the new data retention law</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We want to gather options for ISPs, to provide anonymous internet access to every customer in the face of obligatory telecommunicactions data retention. This will help to create a concept to acompany our own campaign we will hand out to a variety of providers above a certain amount of customers.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T11:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Linked_Sensors_Data_Hackathon">
+		<rdfs:label>Linked Sensors Data Hackathon</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Linked_Sensors_Data_Hackathon"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Linked_Sensors_Data_Hackathon"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linked Sensors Data project kick-off</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Join and hack on Plug computers, Arduino sensors and CouchDB / Google App Engine (Python)</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T10:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Linked_Sensors_Data_project_kick-2Doff">
+		<rdfs:label>Linked Sensors Data project kick-off</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Linked_Sensors_Data_project_kick-off"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Linked_Sensors_Data_project_kick-off"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linked Sensors Data project kick-off</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Join the meetup to discuss and prototype hardware and software for the linked data sensors project.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T17:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1-2h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;LinkedData">
+		<rdfs:label>LinkedData</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;LinkedData"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/LinkedData"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linked Data - Evolving a Global Dataspace</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linked Data technologies provide for setting links between records in distinct databases and thus to connect these databases into a global data space. Over the last years, Linked Data technologies have been adopted by an increasing number of data providers, including the US and UK governments as well as major players in the media and pharmaceutical industry, leading to the creation of a global Web of Data.
+Experience the Linked Data life cycle yourself and learn how to publish and consume Linked Data!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T12:08:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 hours</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Livecoding_Visuals_with_fluxus">
+		<rdfs:label>Livecoding Visuals with fluxus</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Livecoding_Visuals_with_fluxus"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Livecoding_Visuals_with_fluxus"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Livecoding Visuals with (fluxus)</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiny visuals, coded live.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T22:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 hours to 2 days</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Machine_Learning_Workshop">
+		<rdfs:label>Machine Learning Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Machine_Learning_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Machine_Learning_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction to Machine Learning in Python with scikit-learn</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General introduction to machine learning using the Scientific Python stack.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-3h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Machine_Learning_Workshop_Round2">
+		<rdfs:label>Machine Learning Workshop Round2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Machine_Learning_Workshop_Round2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Machine_Learning_Workshop_Round2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Introduction to Machine Learning in Python with scikit-learn (Round 2)</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">General introduction to machine learning using the Scientific Python stack.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T16:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Memorial_of_Len_Sassaman">
+		<rdfs:label>Memorial of Len Sassaman</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Memorial_of_Len_Sassaman"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Memorial_of_Len_Sassaman"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memorial of Len Sassaman</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is the CCC Camp memorial of Len Sassamans death.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T22:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 minutes</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Mentoring_Workshop">
+		<rdfs:label>Mentoring Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Mentoring_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Mentoring_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentoring Workshop.</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">young hackers looking for a mentor, experienced hackers looking for someone to pass their wisdom on =&gt; NEW DATE!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T12:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nomic">
+		<rdfs:label>Nomic</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nomic"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nomic"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nomic</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Play Nomic, A game of Self-Amendment.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T22:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00 - 35183:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Nukefest">
+		<rdfs:label>Nukefest</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Nukefest"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Nukefest"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiation Monitoring / Final Panel</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This workshop will discuss practical aspects of nuclear radiation monitoring.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T11:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Open_Location_Estimation">
+		<rdfs:label>Open Location Estimation</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Open_Location_Estimation"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Open_Location_Estimation"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Location Estimation Workshop</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brainstorming workshop for the OpenLOC-project. We are creating an open, free, community sourced mobile location estimation system and we are here to brainstorm the future of the project and get in touch with our like-minded, and build a community.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T12:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">600</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;OpenSourceLaser">
+		<rdfs:label>OpenSourceLaser</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;OpenSourceLaser"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/OpenSourceLaser"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open Source Driver for Laser Cutters</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">During this workshop we will show you what we've made: software, hardware and the running laser cutter. Then we invite you to hack it, improve it, make it do amazing cool things!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;OpenSourceLaser2">
+		<rdfs:label>OpenSourceLaser2</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;OpenSourceLaser2"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/OpenSourceLaser2"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jaap</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">During this workshop we will show you what we've made: software, hardware and the running laser cutter. Then we invite you to hack it, improve it, make it do amazing cool things!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;OpenSourceLaser3">
+		<rdfs:label>OpenSourceLaser3</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;OpenSourceLaser3"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/OpenSourceLaser3"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jaap</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">During this workshop we will show you what we've made: software, hardware and the running laser cutter. Then we invite you to hack it, improve it, make it do amazing cool things!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T13:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0:55</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;OpenSourceLaser4">
+		<rdfs:label>OpenSourceLaser4</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;OpenSourceLaser4"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/OpenSourceLaser4"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jaap</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">During this workshop we will show you what we've made: software, hardware and the running laser cutter. Then we invite you to hack it, improve it, make it do amazing cool things!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T13:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;OpensourceSolar">
+		<rdfs:label>OpensourceSolar</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;OpensourceSolar"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/OpensourceSolar"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Build a USB powered camping light</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is part of the opensource-solar.org project to build open source small photovoltaic home systems. Lighting is one of the most important applications and we explore ways to build small LED powered indoor lights using beverage cans as the housing.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T21:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Osmocom_Highspeed_Cable">
+		<rdfs:label>Osmocom Highspeed Cable</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Osmocom_Highspeed_Cable"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Osmocom_Highspeed_Cable"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osmocom Highspeed Cable</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Build your own highspeed cable for your Osmocom. The is made of an USB-Cable you bring and a small PCB (FT232RL). You also get a mini audio jack to connect the cable to the phone. We have material for 20 cables. The Cost is 10 Euro + 2,30 Euro Chaos Tax (donation to the CCC)</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T18:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PTS-2DRocket">
+		<rdfs:label>PTS-Rocket</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PTS-Rocket"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PTS-Rocket"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTS - build and launch model rockets</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We will build some small and reusable model rockets and launch them.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T13:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">120:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;PrivacyPlus">
+		<rdfs:label>PrivacyPlus</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;PrivacyPlus"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/PrivacyPlus"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrivacyPlus</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Running your own services to improve privacy</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T16:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 hours</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Radiation_Monitoring">
+		<rdfs:label>Radiation Monitoring</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Radiation_Monitoring"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Radiation_Monitoring"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiation Monitoring / Nukefest</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This workshop will discuss practical aspects of nuclear radiation monitoring. 
+It is organized as an interactive online conference between people in Japan and people on campsite. Everyone working in this field somehow is called for contributions and encouraged to add his/her topic down below.
+&lt;b&gt;NOTE: Begin was shifted to 12:00 CEST, 7pm JST&lt;/b&gt;
+Online guest access for active Contributors: http://bit.ly/cccamp3</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T12:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;SIMtrace_Workshop">
+		<rdfs:label>SIMtrace Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;SIMtrace_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/SIMtrace_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osmocom SIMtrace workshop</property:WorkshopName>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T11:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Shardy-2B">
+		<rdfs:label>Shardy+</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Shardy%2B"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Shardy%2B"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shardy+ certification</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i don't know when it's actually going to be, this will be updated.
+
+it's the shardy+ certification, the best certification in the field of computer security. also the only certification with a two drink minimum.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T22:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 hours</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Side_channel_analysis">
+		<rdfs:label>Side channel analysis</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Side_channel_analysis"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Side_channel_analysis"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Side channel analysis</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Side channel analysis of microcontrollers</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T12:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Stm32_programming_for_dummies">
+		<rdfs:label>Stm32 programming for dummies</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Stm32_programming_for_dummies"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Stm32_programming_for_dummies"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stm32 programming for dummies</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We will programm a stm32 in C, show you the toolchain and debugger and make same basic expiriments with leds an shift registers</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T12:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Strobist_Flash_Photography_Workshop">
+		<rdfs:label>Strobist Flash Photography Workshop</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Strobist_Flash_Photography_Workshop"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Strobist_Flash_Photography_Workshop"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strobist Flash Photography Workshop</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Create professional-looking photos using small flashes.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T18:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Tent_Bondage">
+		<rdfs:label>Tent Bondage</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Tent_Bondage"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Tent_Bondage"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tent Bondage</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Learn a couple of knots to properly tie down your tent and other things.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T11:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30min</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;ToS;DR">
+		<rdfs:label>ToS;DR</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;ToS;DR"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/ToS;DR"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terms of Service; Didn't Read ("ToS;DR")</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">we want to brainstorm about how terms-of-service on websites and other cloudy services can be made user-readable. Something like the CreativeCommons icons, or the GPL license.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Treeclimbing">
+		<rdfs:label>Treeclimbing</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Treeclimbing"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Treeclimbing"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treeclimbing</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Proposal: It would be great if some experienced climbers would come together and form a workshop like in 2007. Am willing to learn, but lacking gear. Slackliners welcome!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T10:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during the whole camp?</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Urban_Hacking_and_Community_Gardens">
+		<rdfs:label>Urban Hacking and Community Gardens</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Urban_Hacking_and_Community_Gardens"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Urban_Hacking_and_Community_Gardens"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urban Hacking and Community Gardens</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urban Hacking and Community Gardens - The map of Community Gardens, empty spaces and squats in Milano. Come and join us sharing your experiences!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T13:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1:00</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Workshops_at_FHB_Friday_12/8/2011">
+		<rdfs:label>Workshops at FHB Friday 12/8/2011</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Workshops_at_FHB_Friday_12/8/2011"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Workshops_at_FHB_Friday_12/8/2011"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hack your own Sushi</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Know Your Sushi and prepare some with easy tricks!</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T15:30:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Workshops_at_FHB_Saturday_13/8/2011">
+		<rdfs:label>Workshops at FHB Saturday 13/8/2011</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Workshops_at_FHB_Saturday_13/8/2011"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Workshops_at_FHB_Saturday_13/8/2011"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On baking without beasts</property:WorkshopName>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The starving hacker</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Some easy tips and tricks for baking plant-only, including making it gluten-free and sugar-free</property:WorkshopDescription>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How to prepare tasty and dirty cheap Italian food.</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-13T11:00:00</property:WorkshopDateTime>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-12T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3h</property:WorkshopDuration>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Workshops_at_FHB_Wednesday_10/8/2011">
+		<rdfs:label>Workshops at FHB Wednesday 10/8/2011</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Workshops_at_FHB_Wednesday_10/8/2011"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Workshops_at_FHB_Wednesday_10/8/2011"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On thriving</property:WorkshopName>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hack your own Sushi</property:WorkshopName>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brewing probiotic beverages</property:WorkshopName>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">About how changing the world means changing our diet, perhaps also about how vegans fit in and of course about some unusual meals that you will taste and that make a lot of sense</property:WorkshopDescription>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Know Your Sushi and prepare some with easy tricks!</property:WorkshopDescription>
+		<property:WorkshopDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brewing probiotic beverages</property:WorkshopDescription>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T11:00:00</property:WorkshopDateTime>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-10T16:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2h</property:WorkshopDuration>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3h</property:WorkshopDuration>
+	</swivt:Subject>
+	<swivt:Subject rdf:about="&wiki;Workshops/Universalschema">
+		<rdfs:label>Workshops/Universalschema</rdfs:label>
+		<swivt:page rdf:resource="&wikiurl;Workshops/Universalschema"/>
+		<rdfs:isDefinedBy rdf:resource="&wikiurl;Special:ExportRDF/Workshops/Universalschema"/>
+		<swivt:wikiNamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</swivt:wikiNamespace>
+		<property:WorkshopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grundriss eines Universalschemas</property:WorkshopName>
+		<property:WorkshopDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-08-11T14:00:00</property:WorkshopDateTime>
+		<property:WorkshopDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2h</property:WorkshopDuration>
+	</swivt:Subject>
+	<owl:DatatypeProperty rdf:about="&swivt;creationDate" />
+	<owl:ObjectProperty rdf:about="&swivt;page" />
+	<owl:DatatypeProperty rdf:about="&swivt;wikiNamespace" />
+	<owl:DatatypeProperty rdf:about="&property;WorkshopName" />
+	<owl:DatatypeProperty rdf:about="&property;WorkshopDescription" />
+	<owl:DatatypeProperty rdf:about="&property;WorkshopDateTime" />
+	<owl:DatatypeProperty rdf:about="&property;WorkshopDuration" />
+	<!-- Created by Semantic MediaWiki, http://semantic-mediawiki.org/ -->
+</rdf:RDF>
