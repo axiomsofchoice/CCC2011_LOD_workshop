@@ -1,16 +1,27 @@
 """Convert the Chaos Communication Camp 2011 Schedule from XML to RDF.
 """
 
-import urllib
+import urllib2
+from lxml import etree
+from StringIO import StringIO
 
-exampleDOI = 'http://dx.doi.org/10.1126/science.1157784'
+def read_xml():
+    source_schedule = 'http://events.ccc.de/camp/2011/Fahrplan/schedule.en.xml'
+    
+    req = urllib2.Request(source_schedule)
+    r = urllib2.urlopen(req)
+    s = r.read()
+    sio = StringIO(s)
+    
+    tree = etree.parse(sio)
+    
+    return tree
 
-op = urllib.FancyURLopener()
-op.addheader('Accept', 'application/rdf+xml')
-f = op.open(exampleDOI)
-s = f.read()
+rn = read_xml()
 
-#print s
+print rn
+
+exit(0)
 
 from rdflib import Graph
 from rdflib import Namespace
