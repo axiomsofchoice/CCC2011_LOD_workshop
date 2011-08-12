@@ -20,14 +20,38 @@ def read_xml():
 rn = read_xml()
 
 # Get overall conference metadata
-myXapth = etree.ETXPath("/schedule/conference/title")
-print myXpath(rn)
+myXpath = etree.ETXPath("/schedule/conference/title")
+print myXpath(rn)[0].text
+
+# TODO: extract the following metadata
+"""
+<title>Chaos Communication Camp 2011</title>
+<subtitle>Project Flow Control</subtitle>
+<venue>Luftfahrtmuseum Finowfurt</venue>
+<city>Finowfurt</city>
+<start>2011-08-10</start>
+<end>2011-08-14</end>
+<days>5</days>
+<release>Version 1.3</release>
+<day_change>06:00</day_change>
+<timeslot_duration>00:30</timeslot_duration>
+"""
 
 # Iterate over the days of the conference
-
-#    # Iterate over rooms for that day
-#        
-#        # Iterate over events for this room on this day
+daysXpath = etree.ETXPath("/schedule/day")
+days = daysXpath(rn)
+for day in days:
+    print day
+    # Iterate over rooms for that day
+    for room in day.iterfind("./room"):
+        print room.get("name")
+        #
+        ## Iterate over events for this room on this day
+        for event in room.iterfind("./event"):
+            print event.get("id")
+            
+            # Iterate over persons
+            # Iterate over links
 
 exit(0)
 
