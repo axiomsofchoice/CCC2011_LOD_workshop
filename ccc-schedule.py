@@ -66,12 +66,17 @@ for day in days:
         ## Iterate over events for this room on this day
         for event in room.iterfind("./event"):
             print event.get("id")
-            
-            event = URIRef("http://events.ccc.de/camp/2011")
-            g.add((conf, SKOS.label, event))
+            event_slug = event.find("slug").text
+            if event_slug is not None:
+                eventURI = CCC[event.find("slug").text]
+                g.add((conf, CCC.hasEvent, eventURI))
+                g.add((eventURI, CCC.hasLabel, event.find("title").text))
+            else:
+                continue
+                # TODO: something here
             
             # Iterate over persons
             # Iterate over links
 
-g.serialize("out.rdf")
+g.serialize("ccc.rdf")
 
