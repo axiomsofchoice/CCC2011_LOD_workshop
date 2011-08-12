@@ -5,6 +5,8 @@ import urllib2
 from lxml import etree
 from StringIO import StringIO
 from rdflib import Graph
+from rdflib import RDF
+from rdflib import RDFS
 from rdflib import Namespace
 from rdflib import URIRef
 from rdflib import Literal
@@ -29,15 +31,16 @@ g = Graph()
 
 # Declare some useful namespaces
 CCCONTO = Namespace('http://events.ccc.de/schedule.owl#')
-SKOS = Namespace('http://www.w3.org/2004/02/skos/core#')
 CCC = Namespace('http://fahrplan.u0d.de/')
+CCCO = Namespace('http://fahrplan.u0d.de/schedule.owl#')
+
 
 # Get overall conference metadata
 myXpath = etree.ETXPath("/schedule/conference/title")
 conference_title = myXpath(rn)[0].text
 
-conf = URIRef("http://events.ccc.de/camp/2011")
-g.add((conf, SKOS.label, Literal(conference_title)))
+conf = URIRef("http://fahrplan.u0d.de/camp2011")
+g.add((conf, RDFS.label, Literal(conference_title)))
 
 # TODO: extract the following metadata
 """
@@ -69,8 +72,9 @@ for day in days:
             event_slug = event.find("slug").text
             if event_slug is not None:
                 eventURI = CCC[event.find("slug").text]
-                g.add((conf, CCC.hasEvent, eventURI))
-                g.add((eventURI, CCC.hasLabel, event.find("title").text))
+                g.add((conf, CCCO.hasEvent, eventURI))
+                g.add((eventURI, RDFS.label, Literal(event.find("title").text)))
+                g.add((eventURI, RDF.type, CCCO.Event))
             else:
                 continue
                 # TODO: something here
@@ -78,5 +82,5 @@ for day in days:
             # Iterate over persons
             # Iterate over links
 
-g.serialize("ccc.rdf")
+g.serialize("data/ccc.rdf")
 

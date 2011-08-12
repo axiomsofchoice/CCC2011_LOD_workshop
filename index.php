@@ -1,37 +1,18 @@
 <?php
+define(DATAFILE, 'data/ccc2.nt');
+define(START_RESOURCE, '/camp2011');
 
-define(DATAFILE,'data/result.rdf');
 
 include_once ("arc2/ARC2.php");
 $parser = ARC2 :: getRDFParser();
 $parser->parse(DATAFILE);
 $index = $parser->getSimpleIndex(0);
-$uri = "http://" . $_SERVER["HTTP_HOST"] . $_REQUEST['q'];
-
-function getAcceptMimeTypes() {
-	// Values will be stored in this array
-	$AcceptTypes = Array ();
-
-	// Accept header is case insensitive, and whitespace isn’t important
-	$accept = strtolower(str_replace(' ', '', $_SERVER['HTTP_ACCEPT']));
-	// divide it into parts in the place of a ","
-	$accept = explode(',', $accept);
-	foreach ($accept as $a) {
-		// the default quality is 1.
-		$q = 1;
-		// check if there is a different quality
-		if (strpos($a, ';q=')) {
-			// divide "mime/type;q=X" into two parts: "mime/type" i "X"
-			list ($a, $q) = explode(';q=', $a);
-		}
-		// mime-type $a is accepted with the quality $q
-		// WARNING: $q == 0 means, that mime-type isn’t supported!
-		$AcceptTypes[$a] = $q;
-	}
-	arsort($AcceptTypes);
-
-	return $AcceptTypes;
+$query = $_REQUEST['q'];
+if (empty($query) || $query == "/") {
+	$query = START_RESOURCE;
 }
+
+$uri = "http://" . $_SERVER["HTTP_HOST"] . $query;
 
 if (empty ($index[$uri])) {
 	header("HTTP/1.0 404 Not Found");
@@ -45,23 +26,33 @@ $uridata = array (
 );
 
 $acceptedTypes = getAcceptMimeTypes();
+
 foreach ($acceptedTypes as $type => $q) {
 	switch ($type) {
 		case "text/html" :
 			header("Content-Type: text/html");
-			print "<html><head><title>Description of $uri</title></head><body><h1>Description of $uri</h1><table>";
+			print "<html><head><meta charset='utf-8'>
+<link rel='stylesheet' type='text/css' href='http://dbpedia.org/statics/style.css' /> 
+									<title>".getLabel($uri)."</title></head><body><div id='header'>
+	  <h1 id='title'><a href='$uri'>".getLabel($uri)."</a></h1></div><div id='content'>
+<table class='description'><tr><th>Property</th><th>Value</th></tr> ";
+			$row = 0;
 			foreach ($index[$uri] as $key => $values) {
-				print "<tr><td>$key</td><td>";
+				$class = ($row % 2 == 0) ? "odd" : "even";
+				print "<tr class='$class'><td><a href='$key'>" . getLabel($key) . "</a></td><td><ul>";
 				foreach ($values as $value) {
+					print "<li>";
 					if ($value["type"] == "uri") {
-						print "<a href='{$value['value']}'>{$value['value']}</a>";
+						print "<a href='{$value['value']}'>" . getLabel($value['value']) . "</a>";
 					} else {
 						print $value['value'];
 					}
+					print "</li>";
 				}
-				print "</td></tr>";
+				print "</ul></td></tr>";
+				$row++;
 			}
-			print "</table></body></html>";
+			print "</table></div><div id='footer'>Created by the participants of the <a href='http://events.ccc.de/camp/2011/wiki/LinkedData'>Linked Data Workshop</a> at <a href='http://events.ccc.de/camp/2011/'>Chaos Communication Camp 2011</a> using data from the <a href='http://events.ccc.de/camp/2011/Fahrplan/'>Fahrplan event calendar</a>.</body></html>";
 			exit;
 			break;
 
@@ -79,5 +70,68 @@ foreach ($acceptedTypes as $type => $q) {
 
 	}
 }
-#print(htmlentities));
+
+function getLabel($url) {
+	$dbhandle = sqlite_open('labelcache.db');
+	if (!sqlite_has_more(sqlite_query($dbhandle, "SELECT name FROM sqlite_master WHERE name='labels'"))) {
+		sqlite_query($dbhandle, "CREATE TABLE labels (url,label)");
+	}
+	$query = sqlite_query($dbhandle, 'SELECT label FROM labels WHERE url="' . $url . '"');
+	$result = sqlite_fetch_single($query, SQLITE_ASSOC);
+	if (empty ($result)) {
+		$label = retrieveLabel($url);
+		sqlite_query($dbhandle, "INSERT INTO labels (url,label) VALUES ('$url','".sqlite_escape_string($label)."');");
+		return $label;
+
+	} else {
+		return $result;
+	}
+}
+
+function retrieveLabel($url) {
+	$parser = ARC2 :: getRDFParser();
+	$parser->parse($url);
+	$index = $parser->getSimpleIndex(0);
+	if (is_array($index[$url]["http://www.w3.org/2000/01/rdf-schema#label"])) {
+	foreach ($index[$url]["http://www.w3.org/2000/01/rdf-schema#label"] as $sl) {
+		if ($sl['lang'] == "en" || $sl['lang'] == "") {
+			$label = $sl['value'];
+		}
+	}
+	}
+	if (trim($label) != "") {
+		return $label;
+	}
+	if (strrpos($url, "#") !== false) {
+		return substr($url, strrpos($url, "#") + 1);
+	}
+	if (strrpos($url, "/") !== false) {
+		return substr($url, strrpos($url, "/") + 1);
+	}
+	return $url;
+}
+
+function getAcceptMimeTypes() {
+	// Values will be stored in this array
+	$AcceptTypes = Array ();
+
+	// Accept header is case insensitive, and whitespace isn’t important
+	$accept = strtolower(str_replace(' ', '', $_SERVER['HTTP_ACCEPT']));
+	// divide it into parts in the place of a ","
+	$accept = explode(',', $accept);
+	foreach ($accept as $a) {
+		// the default quality is 1.
+		$q = 1;
+		// check if there is a different quality
+		if (strpos($a, ';q=')) {
+			// divide "mime/type;q=X" into two parts: "mime/type" i "X"
+			list ($a, $q) = explode(';q=', $a);
+		}
+		$AcceptTypes[$a] = $q;
+	}
+	arsort($AcceptTypes);
+
+	return $AcceptTypes;
+}
+
 ?>

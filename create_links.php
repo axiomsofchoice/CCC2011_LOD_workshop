@@ -1,9 +1,11 @@
 <?php
-
+ini_set("display_errors",1);
+error_reporting(E_ALL);
 require_once('arc2/ARC2.php');
 
 
 function curl_get($url) {
+	$reader = ARC2::getComponent('Reader', $conf);
 
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
@@ -82,14 +84,14 @@ function get_annotations($subject) {
 }
 
 $parser = ARC2::getRDFParser();
-$parser->parse("ccc.rdf");
+$parser->parse("data/ccc.rdf");
 $triples = $parser->getTriples();
 
 $annotations = array();
 
 foreach($triples as $key=>$triple) {
-
-if ($triple['p'] == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" && $triple['o'] == "http://fahrplan.u0d.de/schema.owl#Lecture") {
+print_r($triple);
+if ($triple['p'] == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" && $triple['o'] == "http://fahrplan.u0d.de/schedule.owl#Event") {
 	$annotations[$triple['s']] = get_annotations($triple['s']);
 }
 }
@@ -109,7 +111,7 @@ foreach($annotations as $subject=>$annotation) {
 
 $rdfstring = $parser->toNTriples($triples);
 
-$ohandle = fopen('ccc2.rdf','w');
+$ohandle = fopen('data/ccc2.nt','w');
 
 fwrite($ohandle, $rdfstring);
 
