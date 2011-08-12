@@ -60,6 +60,14 @@
     
 
 
+    <!-- http://events.ccc.de/schedule.owl#hasLabel -->
+
+    <owl:ObjectProperty rdf:about="#hasLabel">
+        <rdfs:domain rdf:resource="#Event"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://events.ccc.de/schedule.owl#hasRoom -->
 
     <owl:ObjectProperty rdf:about="#hasRoom">
@@ -74,14 +82,6 @@
     <owl:ObjectProperty rdf:about="#hasSpeaker">
         <rdfs:domain rdf:resource="#Event"/>
         <rdfs:range rdf:resource="#Speaker"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://events.ccc.de/schedule.owl#hasTitle -->
-
-    <owl:ObjectProperty rdf:about="#hasTitle">
-        <rdfs:domain rdf:resource="#Event"/>
     </owl:ObjectProperty>
     
 
