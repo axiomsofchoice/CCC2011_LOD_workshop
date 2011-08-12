@@ -11,8 +11,8 @@
 ]>
 
 
-<rdf:RDF xmlns="http://events.ccc.de/schedule.owl#"
-     xml:base="http://events.ccc.de/schedule.owl"
+<rdf:RDF xmlns="http://fahrplan.u0d.de/schedule.owl#"
+     xml:base="http://fahrplan.u0d.de/schedule.owl"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:schedule="http://events.ccc.de/schedule.owl#"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
@@ -36,61 +36,61 @@
 
     <!-- http://events.ccc.de/schedule.owl#hasAttendee -->
 
-    <owl:ObjectProperty rdf:about="#hasAttendee">
-        <rdfs:range rdf:resource="#Attendee"/>
-        <rdfs:domain rdf:resource="#Event"/>
+    <owl:ObjectProperty rdf:about="&schedule;hasAttendee">
+        <rdfs:range rdf:resource="&schedule;Attendee"/>
+        <rdfs:domain rdf:resource="&schedule;Event"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#hasDescription -->
 
-    <owl:ObjectProperty rdf:about="#hasDescription">
-        <rdfs:domain rdf:resource="#Event"/>
+    <owl:ObjectProperty rdf:about="&schedule;hasDescription">
+        <rdfs:domain rdf:resource="&schedule;Event"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#hasEvent -->
 
-    <owl:ObjectProperty rdf:about="#hasEvent">
-        <rdfs:range rdf:resource="#Event"/>
-        <rdfs:domain rdf:resource="#Track"/>
+    <owl:ObjectProperty rdf:about="&schedule;hasEvent">
+        <rdfs:range rdf:resource="&schedule;Event"/>
+        <rdfs:domain rdf:resource="&schedule;Track"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#hasLabel -->
 
-    <owl:ObjectProperty rdf:about="#hasLabel">
-        <rdfs:domain rdf:resource="#Event"/>
+    <owl:ObjectProperty rdf:about="&schedule;hasLabel">
+        <rdfs:domain rdf:resource="&schedule;Event"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#hasRoom -->
 
-    <owl:ObjectProperty rdf:about="#hasRoom">
-        <rdfs:domain rdf:resource="#Event"/>
-        <rdfs:range rdf:resource="#Room"/>
+    <owl:ObjectProperty rdf:about="&schedule;hasRoom">
+        <rdfs:domain rdf:resource="&schedule;Event"/>
+        <rdfs:range rdf:resource="&schedule;Room"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#hasSpeaker -->
 
-    <owl:ObjectProperty rdf:about="#hasSpeaker">
-        <rdfs:domain rdf:resource="#Event"/>
-        <rdfs:range rdf:resource="#Speaker"/>
+    <owl:ObjectProperty rdf:about="&schedule;hasSpeaker">
+        <rdfs:domain rdf:resource="&schedule;Event"/>
+        <rdfs:range rdf:resource="&schedule;Speaker"/>
     </owl:ObjectProperty>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#hasTrack -->
 
-    <owl:ObjectProperty rdf:about="#hasTrack">
-        <rdfs:domain rdf:resource="#Conference"/>
-        <rdfs:range rdf:resource="#Track"/>
+    <owl:ObjectProperty rdf:about="&schedule;hasTrack">
+        <rdfs:domain rdf:resource="&schedule;Conference"/>
+        <rdfs:range rdf:resource="&schedule;Track"/>
     </owl:ObjectProperty>
     
 
@@ -108,62 +108,62 @@
 
     <!-- http://events.ccc.de/schedule.owl#Attendee -->
 
-    <owl:Class rdf:about="#Attendee">
-        <rdfs:subClassOf rdf:resource="#Person"/>
+    <owl:Class rdf:about="&schedule;Attendee">
+        <rdfs:subClassOf rdf:resource="&schedule;Person"/>
     </owl:Class>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#Conference -->
 
-    <owl:Class rdf:about="#Conference"/>
+    <owl:Class rdf:about="&schedule;Conference"/>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#Event -->
 
-    <owl:Class rdf:about="#Event"/>
+    <owl:Class rdf:about="&schedule;Event"/>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#Lecture -->
 
-    <owl:Class rdf:about="#Lecture">
-        <rdfs:subClassOf rdf:resource="#Event"/>
+    <owl:Class rdf:about="&schedule;Lecture">
+        <rdfs:subClassOf rdf:resource="&schedule;Event"/>
     </owl:Class>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#Person -->
 
-    <owl:Class rdf:about="#Person"/>
+    <owl:Class rdf:about="&schedule;Person"/>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#Room -->
 
-    <owl:Class rdf:about="#Room"/>
+    <owl:Class rdf:about="&schedule;Room"/>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#Speaker -->
 
-    <owl:Class rdf:about="#Speaker">
-        <rdfs:subClassOf rdf:resource="#Person"/>
+    <owl:Class rdf:about="&schedule;Speaker">
+        <rdfs:subClassOf rdf:resource="&schedule;Person"/>
     </owl:Class>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#Track -->
 
-    <owl:Class rdf:about="#Track"/>
+    <owl:Class rdf:about="&schedule;Track"/>
     
 
 
     <!-- http://events.ccc.de/schedule.owl#Workshop -->
 
-    <owl:Class rdf:about="#Workshop">
-        <rdfs:subClassOf rdf:resource="#Event"/>
+    <owl:Class rdf:about="&schedule;Workshop">
+        <rdfs:subClassOf rdf:resource="&schedule;Event"/>
     </owl:Class>
 </rdf:RDF>
 

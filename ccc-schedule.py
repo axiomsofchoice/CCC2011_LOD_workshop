@@ -6,6 +6,8 @@ from lxml import etree
 from StringIO import StringIO
 from rdflib import Graph
 from rdflib import Namespace
+from rdflib import URIRef
+from rdflib import Literal
 
 def read_xml():
     source_schedule = 'http://events.ccc.de/camp/2011/Fahrplan/schedule.en.xml'
@@ -26,13 +28,19 @@ rn = read_xml()
 g = Graph()
 
 # Declare some useful namespaces
-ccc_onto = Namespace('http://events.ccc.de/schedule.owl#')
-ccc = Namespace('http://fahrplan.u0d.de/')
+CCCONTO = Namespace('http://events.ccc.de/schedule.owl#')
+SKOS = Namespace('http://www.w3.org/2004/02/skos/core#')
+CCC = Namespace('http://fahrplan.u0d.de/')
 
 # Get overall conference metadata
 myXpath = etree.ETXPath("/schedule/conference/title")
-print myXpath(rn)[0].text
+conference_title = myXpath(rn)[0].text
 
+conf = URIRef("http://events.ccc.de/camp/2011")
+g.add((conf, SKOS.label, Literal(conference_title)))
+g.serialize("out.rdf")
+#g.serialize()
+exit(0)
 # TODO: extract the following metadata
 """
 <title>Chaos Communication Camp 2011</title>
